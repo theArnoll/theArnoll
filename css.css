@@ -1,0 +1,76 @@
+body
+{
+    background-color: #222;
+    color: #DDD;
+    font-family: "Source Sans 3", "Roboto", "Roboto Slab", sans-serif;
+    font-size: 115%;
+}
+
+a { color: #298DFF;}
+
+/*
+=== Imported Font Families List ===
+"LXGW WenKai TC" | "M PLUS 1 Code" | "Noto Sans TC" | "Noto Serif TC" | "Playfair Display" | "Rajdhani"
+"Roboto Slab" | "M PLUS 2" | "Noto Color Emoji" | "Lato" | "Monomakh" | "Montserrat" | "VT323" | "Gemunu Libre"
+"Major Mono Display" | "Chakra Petch" | "Noto Sans JP" | "Cal Sans" | "Exo 2" | "Ubuntu" | "Open Sans"
+"Montserrat Alternates" | "Source Sans 3" | "Tomorrow" | "Russo One"
+*/
+
+#homeLogo
+{
+    width: 0.8lh;
+    height: 0.8lh;
+    display: inline-block;
+}
+
+.content
+{
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.left
+{
+    margin: auto;
+    width: fit-content;
+    text-align: left;
+}
+
+.label_CLI, .label_GUI, .label_Ardu, .label_RPi, .label_untested
+{
+    border-radius: 4%;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: inline-block; 
+}
+
+.label_CLI
+{
+    font-family: "Cascadia Code", monospace;
+    background-color: #26de8244; /* https://flatuicolors.com/palette/de */
+}
+
+.label_GUI
+{
+    font-family: "Cascadia Code", monospace;
+    background-color: #45aaf244; /* https://flatuicolors.com/palette/de */
+}
+
+.label_Ardu
+{
+    font-family: "Roboto", sans-serif;
+    background-color: #00979d88; /* https://content.arduino.cc/brand/ */
+}
+
+.label_RPi
+{
+    font-family: "Roboto", sans-serif;
+    background-color: #cd1d5588; /* https://www.raspberrypi.com/trademark-rules/ */
+}
+
+.label_untested
+{
+    font-family: "Roboto", sans-serif;
+    background-color: #F004;
+}
